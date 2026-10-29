@@ -121,6 +121,7 @@
             this.qntybox.Name = "qntybox";
             this.qntybox.Size = new System.Drawing.Size(100, 22);
             this.qntybox.TabIndex = 7;
+            this.qntybox.TextChanged += new System.EventHandler(this.qntybox_TextChanged);
             // 
             // rembox
             // 
@@ -138,7 +139,7 @@
             this.tablelist.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 323F));
             this.tablelist.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 87F));
             this.tablelist.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 143F));
-            this.tablelist.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
+            this.tablelist.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 394F));
             this.tablelist.Controls.Add(this.label7, 0, 0);
             this.tablelist.Controls.Add(this.label8, 1, 0);
             this.tablelist.Controls.Add(this.label10, 3, 0);

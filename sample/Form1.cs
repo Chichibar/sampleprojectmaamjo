@@ -63,5 +63,10 @@ namespace sample
         {
 
         }
+
+        private void qntybox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
