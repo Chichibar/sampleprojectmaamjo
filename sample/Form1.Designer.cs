@@ -236,8 +236,9 @@
             this.btnclear.Name = "btnclear";
             this.btnclear.Size = new System.Drawing.Size(75, 23);
             this.btnclear.TabIndex = 13;
-            this.btnclear.Text = "clear";
+            this.btnclear.Text = "edit item";
             this.btnclear.UseVisualStyleBackColor = true;
+            this.btnclear.Click += new System.EventHandler(this.btnclear_Click);
             // 
             // label6
             // 

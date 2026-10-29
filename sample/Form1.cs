@@ -24,6 +24,12 @@ namespace sample
 
         private void btnadd_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Form2 addForm = new Form2();
+            addForm.ShowDialog();
+            this.Show();
+
+
             int row = tablelist.RowCount;
             tablelist.RowCount++;
 
@@ -67,6 +73,14 @@ namespace sample
         private void qntybox_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnclear_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 editForm = new Form3();
+            editForm.ShowDialog();
+            this.Show();
         }
     }
 }
