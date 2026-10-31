@@ -57,6 +57,7 @@
             //
             // searchBox
             //
+            this.searchBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)));
             this.searchBox.Location = new System.Drawing.Point(60, 58);
             this.searchBox.Name = "searchBox";
             this.searchBox.Size = new System.Drawing.Size(260, 22);
@@ -82,6 +83,8 @@
             this.btnEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnEdit.BackColor = System.Drawing.Color.FromArgb(225, 225, 225);
             this.btnEdit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEdit.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.btnEdit.FlatAppearance.BorderSize = 1;
             this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEdit.ForeColor = System.Drawing.Color.Black;
             this.btnEdit.Location = new System.Drawing.Point(515, 56);
@@ -131,7 +134,7 @@
             this.grid.ReadOnly = true;
             this.grid.RowHeadersVisible = false;
             this.grid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grid.Size = new System.Drawing.Size(800, 380);
+            this.grid.Size = new System.Drawing.Size(950, 380);
             this.grid.TabIndex = 6;
             //
             // colPropertyNo
@@ -189,7 +192,7 @@
             this.Controls.Add(this.lblSearch);
             this.Controls.Add(this.lblTitle);
             this.Name = "EquipmentControl";
-            this.Size = new System.Drawing.Size(950, 500);
+            this.Size = new System.Drawing.Size(1000, 500);
             ((System.ComponentModel.ISupportInitialize)(this.grid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

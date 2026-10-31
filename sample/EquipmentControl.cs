@@ -82,5 +82,10 @@ namespace sample
             Theme.Safely(() => Database.DeleteEquipment(item.PropertyNo));
             RefreshGrid();
         }
+
+        private void EquipmentControl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
